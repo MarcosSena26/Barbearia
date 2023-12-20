@@ -1,2 +1,2 @@
 # Hortifruti
-Este projeto em HMTL, CSS e Javascript foi desenvolvido para criar uma experiência de compra em um hortifruti online.
+Este projeto em HMTL, CSS e Javascript foi desenvolvido para criar uma experiência em um site de baberia online.
