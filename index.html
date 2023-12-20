@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Este site possui a função de exemplificar a grande maioria das MetaTags existentes do HTML5">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="keywords" content="Barbearia, Cabelereiro, Cabelos">
+    <!-- <meta http-equiv="refresh" content="0; url=http://google.com"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Barber Shop - Style Your Hair</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/e6b8371d90.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/fabicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section id="header">
+        <div class="nav-bar">
+            <img src="img/logo.png" alt="logo" class="logo">
+            <img src="img/menu.png" alt="menu" class="menu" onclick="openmenu()">
+        </div>
+
+        <nav>
+            <ul class="nav-menu" id="sidemenu">
+                <li><a href="#">INÍCIO</a></li>
+                <li><a href="#">CARACTERÍSTICAS</a></li>
+                <li><a href="#">SERVIÇOS</a></li>
+                <li><a href="#">FEEDBACKS</a></li>
+                <li><a href="#">SOBRE</a></li>
+
+                <img src="img/close.png" alt="close" class="close" onclick="closemenu()">
+            </ul>
+        </nav>
+
+        <div class="header-contents">
+            <h1>Hair Studio</h1>
+            <p>Estilo em seu cabelo, estilo em sua vida</p>
+            <div class="header-btn">
+                <a href="#"><span></span>Saber mais</a>
+                <a href="#"><span></span>Consultar</a>
+            </div>
+        </div>
+    </section>
+    <section id="features">
+        <div class="title-text">
+            <p>FEATURES</p>
+            <h2>Por que nos escolher?</h2>
+        </div>
+        <div class="feature-contents">
+            <div class="feature-text">
+                <div class="feature">
+                    <h3>Equipe Experiente</h3>
+                    <div class="row">
+                        <span class="feature-icon"><i class="fa-solid fa-shield-halved"></i></span>
+                        <span class="feature-details">Ao escolher nossa barbearia, você está optando por uma experiência de cuidado pessoal e estilo que vai além do comum.</span>
+                    </div>
+                </div>
+                <div class="feature">
+                    <h3>Reserve online e gratuita</h3>
+                    <div class="row">
+                        <span class="feature-icon"><i class="fa-solid fa-check-to-slot"></i></span>
+                        <span class="feature-details">Aproveite a conveniência de nossa reserva online e gratuita para agendar seu próximo momento de cuidado pessoal. </span>
+                    </div>
+                </div>
+                <div class="feature">
+                    <h3>Valor acessível</h3>
+                    <div class="row">
+                        <span class="feature-icon"><i class="fa-solid fa-bangladeshi-taka-sign"></i></span>
+                        <span class="feature-details">Oferecemos um compromisso sólido com preços acessíveis, garantindo que todos possam desfrutar de nossos serviços de qualidade excepcional.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-img">
+                <img src="img/barber-man.jpg" alt="barber-man">
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="title-text">
+            <p>Serviços</p>
+            <h2>Nós fornecemos o melhor</h2>
+        </div>
+
+        <div class="services-content">
+            <div class="service">
+                <img src="img/pic-1.jpg" alt="pic-1">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Estilos de cabelos</h3>
+                        <hr>
+                        <p>Em nossa barbearia, oferecemos uma variedade de estilos de cabelo para atender às necessidades individuais e às últimas tendências</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <img src="img/pic-2.jpg" alt="pic-2">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Estilos de barba</h3>
+                        <hr>
+                        <p>Em nossa barbearia, oferecemos uma variedade de estilos de barba para complementar seu visual e acentuar sua personalidade. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <img src="img/pic-3.jpg" alt="pic-3">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Corte de cabelo</h3>
+                        <hr>
+                        <p>Oferecemos uma variedade de cortes de cabelo para atender às suas preferências e estilo único. Barbeiros experientes estão comprometidos em criar o corte de cabelo perfeito para você, levando em consideração a forma do seu rosto, a textura do seu cabelo e as nossas últimas tendências.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <img src="img/pic-4.jpg" alt="pic-4">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Lavagem</h3>
+                        <hr>
+                        <p>Em nossa barbearia oferecemos uma lavagem de cabelo relaxante e revitalizante para complementar sua experiência de cuidado pessoal. Nossos serviços de lavagem de cabelo são mais do que apenas uma etapa funcional; eles são projetados para proporcionar um momento de puro relaxamento e renovação.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="title-text">
+            <p>FEEDBACKS</p>
+            <h2>Avaliações de nossos clientes</h2>
+        </div>
+        <div class="testimonials-content">
+            <div class="testimonial">
+                <div class="header">
+                    <div class="img">
+                        <img src="img/img-1.jpg" alt="img-1">
+                    </div>
+                    <div class="user">
+                        <h4>Ítalo Santos <i class="fa-brands fa-twitter"></i> </h4>
+                        <p>@itsantos</p>
+                    </div>
+                </div>
+                <div class="body">
+                    <p>"Experiência incrível! Corte de cabelo impecável e atendimento excepcional. Recomendo a todos que procuram um visual elegante e um ambiente acolhedor."
+
+                    </p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="header">
+                    <div class="img">
+                        <img src="img/img-2.jpg" alt="img-2">
+                    </div>
+                    <div class="user">
+                        <h4>Marina Cruz <i class="fa-brands fa-twitter"></i> </h4>
+                        <p>@maricruz</p>
+                    </div>
+                </div>
+                <div class="body">
+                    <p>"Finalmente encontrei um lugar perfeito para cortar meu cabelo. A equipe é incrivelmente talentosa e compreende exatamente o que eu queria. Estou mais que satisfeito!"
+
+                    </p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="header">
+                    <div class="img">
+                        <img src="img/img-3.jpg" alt="img-3">
+                    </div>
+                    <div class="user">
+                        <h4>Renato Matos <i class="fa-brands fa-twitter"></i> </h4>
+                        <p>@rematos</p>
+                    </div>
+                </div>
+                <div class="body">
+                    <p>"Uma barbearia que sabe cuidar de todos. Fui recebido com calor, boas-vindas e saí com um corte de cabelo incrível. Adorei a atenção aos detalhes e o ambiente moderno."
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <img src="img/footer-img.png" alt="footer-img" class="footer-img">
+        <div class="title-text">
+            <p>Contatos</p>
+            <h2>Visite a barbearia hoje</h2>
+        </div>
+        <div class="footer-content">
+            <div class="left">
+                <h4>Opening Hours</h4>
+                <p><i class="fa-solid fa-clock"></i>Domingo a quinta - 10h às 20h </p>
+                <p><i class="fa-solid fa-clock"></i>Sexta a Sábado - 9h às 20h </p>
+            </div>
+            <div class="right">
+                <h4>Entrar em Contato</h4>
+                <p>Rua Sete de Abril, 363 - SP<i class="fa-solid fa-location-dot"></i></p>
+                <p>marcos.ss@gmail.com<i class="fa-solid fa-envelope"></i></p>
+                <p>(11) 96876-0598<i class="fa-solid fa-phone"></i></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="copyright">
+                <p>Copyright ©️ MarcosSena. Made with <i class="fa-solid fa-heart"></i> by <a
+                        href="https://www.instagram.com/_marcos.senaa/" target="_blank">MarcosSena</a></p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-600px";
+        }
+    </script>
+</body>
+
+</html>
